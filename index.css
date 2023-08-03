@@ -1,0 +1,121 @@
+*{
+    list-style: none;
+    text-decoration: none !important;
+}
+
+.nav{
+    height: 70px;
+    align-items: center;
+}
+
+.nav-icon{
+    font-size: 24px;
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+ul a{
+    font-size: 18px;
+}
+
+.main-card{
+    height: 80vh;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.fluid-img{
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.half-card{
+    width: 100%;
+    height: 50%;
+}
+
+.img-over{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.img-over:hover img{
+    transform: scale(1.2);
+}
+
+.mini-card{
+    height: 105%;
+    margin-top: 25px;
+}
+
+.social{
+    background-color: #5D82D1;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+.social i{
+    font-size: 25px;
+}
+
+.instagram{
+    background-image: linear-gradient(45deg, #FD9567, #E03189, #4352DF);
+}
+
+.right-img{
+    height: 70px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.navigate{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: lightblue;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .6s;
+    color: rgb(55, 132, 255, 0.925);
+    position: fixed;
+    bottom: 35px;
+    right: 50px;
+    
+}
+
+.navigate:hover{
+    background-color: rgb(55, 132, 255, 0.925);
+    color: white;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+
+.carousel-img{
+    border-radius: 20px;
+}
+
+.carousel-indicators button{
+    background-color: red !important;
+}
